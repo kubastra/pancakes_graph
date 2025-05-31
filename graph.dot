@@ -1,0 +1,14 @@
+digraph Nalesniki {
+    0 [label="Nagrzać patelnię"];
+    1 [label="Zmieszać składniki"];
+    2 [label="Wylać ciasto"];
+    3 [label="Przewrócić naleśnik"];
+    4 [label="Podgrzać syrop"];
+    5 [label="Zjeść naleśnik"];
+
+    0 -> 2;
+    1 -> 2;
+    2 -> 3;
+    3 -> 5;
+    4 -> 5;
+}
